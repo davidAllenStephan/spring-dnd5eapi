@@ -20,12 +20,10 @@ class Dnd5eApiDamageTypeTest {
     @Test
     public void whenGetDamageTypes_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiDamageTypes.getDamageTypes();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetDamageTypeByIndex_success() {
         Dnd5eApiDamageType dnd5eApiDamageType = dnd5eApiDamageTypes.getDamageTypeByIndex("acid");
-        System.out.println(dnd5eApiDamageType);
     }
 }

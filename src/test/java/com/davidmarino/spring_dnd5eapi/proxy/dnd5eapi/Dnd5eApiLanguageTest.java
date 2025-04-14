@@ -20,12 +20,10 @@ class Dnd5eApiLanguageTest {
     @Test
     public void whenGetLanguages_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiLanguages.getLanguages();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetLanguageByIndex_success() {
         Dnd5eApiLanguage result = dnd5eApiLanguages.getLanguageByIndex("abyssal");
-        System.out.println(result);
     }
 }

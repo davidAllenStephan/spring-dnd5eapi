@@ -20,12 +20,10 @@ class Dnd5eApiMagicSchoolTest {
     @Test
     public void whenGetMagicSchools_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiMagicSchools.getMagicSchools();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetMagicSchoolByIndex_success() {
         Dnd5eApiMagicSchool dnd5eApiMagicSchool = dnd5eApiMagicSchools.getMagicSchoolByIndex("abjuration");
-        System.out.println(dnd5eApiMagicSchool);
     }
 }

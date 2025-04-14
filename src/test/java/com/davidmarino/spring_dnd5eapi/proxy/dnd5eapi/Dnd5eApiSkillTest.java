@@ -20,12 +20,10 @@ class Dnd5eApiSkillTest {
     @Test
     public void whenGetSkills_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiSkills.getSkills();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetSkillByIndex_success() {
         Dnd5eApiSkill dnd5eApiSkill = dnd5eApiSkills.getSkillByIndex("acrobatics");
-        System.out.println(dnd5eApiSkill);
     }
 }

@@ -20,24 +20,20 @@ class Dnd5eApiSubclassTest {
     @Test
     public void whenGetSubclasses_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiSubclasses.getSubclasses();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetSubclassByIndex_success() {
         Dnd5eApiSubclass dnd5eApiSubclass = dnd5eApiSubclasses.getSubclassByIndex("berserker");
-        System.out.println(dnd5eApiSubclass);
     }
 
     @Test
     public void whenGetSubclassFeaturesByIndex_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiSubclasses.getSubclassFeaturesByIndex("berserker");
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetSubclassLevelFeaturesByIndex() {
         Dnd5eApiNamedResourceList result = dnd5eApiSubclasses.getSubclassLevelFeaturesByIndex("berserker", "3");
-        System.out.println(result.getResults());
     }
 }

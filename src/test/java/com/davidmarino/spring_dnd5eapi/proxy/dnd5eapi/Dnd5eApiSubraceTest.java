@@ -20,24 +20,20 @@ class Dnd5eApiSubraceTest {
     @Test
     public void whenGetSubraces_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiSubraces.getSubraces();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetSubraceByIndex_success() {
         Dnd5eApiSubrace dnd5eApiSubrace = dnd5eApiSubraces.getSubraceByIndex("high-elf");
-        System.out.println(dnd5eApiSubrace);
     }
 
     @Test
     public void whenGetSubraceTraitsByIndex_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiSubraces.GetSubraceTraitsByIndex("high-elf");
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetSubraceProficienciesByIndex() {
         Dnd5eApiNamedResourceList result = dnd5eApiSubraces.GetSubraceProficienciesByIndex("high-elf");
-        System.out.println(result.getResults());
     }
 }

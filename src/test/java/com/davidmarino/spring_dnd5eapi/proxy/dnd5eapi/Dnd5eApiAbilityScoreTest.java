@@ -21,12 +21,10 @@ class Dnd5eApiAbilityScoreTest {
     @Test
     public void whenGetAbilityScores_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiAbilityScores.getAbilityScores();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetAbilityScoreByIndex_success() {
         Dnd5eApiAbilityScore dnd5eApiAbilityScore = dnd5eApiAbilityScores.getAbilityScoreByIndex("int");
-        System.out.println(dnd5eApiAbilityScore);
     }
 }

@@ -20,12 +20,10 @@ class Dnd5eApiFeatTest {
     @Test
     public void whenGetFeats_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiFeats.getFeats();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetFeatByIndex_success() {
         Dnd5eApiFeat result = dnd5eApiFeats.getFeatByIndex("grappler");
-        System.out.println(result);
     }
 }

@@ -20,12 +20,10 @@ class Dnd5eApiRuleSectionTest {
     @Test
     public void whenGetRuleSections_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiRuleSections.getRuleSections();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetRuleSectionByIndex_success() {
         Dnd5eApiRuleSection result = dnd5eApiRuleSections.getRuleSectionByIndex("ability-checks");
-        System.out.println(result);
     }
 }

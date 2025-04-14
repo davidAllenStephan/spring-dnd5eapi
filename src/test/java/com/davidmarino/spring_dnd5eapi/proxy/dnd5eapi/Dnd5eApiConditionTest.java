@@ -20,12 +20,10 @@ class Dnd5eApiConditionTest {
     @Test
     public void whenGetConditions_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiConditions.getConditions();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetConditionByIndex_success() {
         Dnd5eApiCondition dnd5eApiCondition = dnd5eApiConditions.getConditionByIndex("blinded");
-        System.out.println(dnd5eApiCondition);
     }
 }

@@ -20,30 +20,25 @@ class Dnd5eApiRaceTest {
     @Test
     public void whenGetRaces_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiRaces.getRaces();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetRaceByIndex_success() {
         Dnd5eApiRace result = dnd5eApiRaces.getRaceByIndex("dragonborn");
-        System.out.println(result);
     }
 
     @Test
     public void whenGetRaceSubracesByIndex_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiRaces.getRaceSubracesByIndex("dragonborn");
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetRaceProficienciesByIndex_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiRaces.getRaceProficienciesByIndex("dragonborn");
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetRaceTraitsByIndex_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiRaces.getRaceTraitsByIndex("dragonborn");
-        System.out.println(result.getResults());
     }
 }

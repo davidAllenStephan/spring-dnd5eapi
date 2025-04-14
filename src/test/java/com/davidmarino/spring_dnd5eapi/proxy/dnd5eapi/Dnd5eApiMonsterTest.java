@@ -20,12 +20,10 @@ class Dnd5eApiMonsterTest {
     @Test
     public void whenGetMonsters_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiMonsters.getMonsters();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetMonsterByIndex_success() {
         Dnd5eApiMonster dnd5eApiMonster = dnd5eApiMonsters.getMonsterByIndex("aboleth");
-        System.out.println(dnd5eApiMonster);
     }
 }

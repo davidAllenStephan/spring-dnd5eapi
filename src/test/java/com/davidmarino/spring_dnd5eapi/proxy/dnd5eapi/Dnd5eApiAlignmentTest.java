@@ -20,12 +20,10 @@ class Dnd5eApiAlignmentTest {
     @Test
     public void whenGetAlignments_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiAlignments.getAlignments();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetAlignmentByIndex_success() {
         Dnd5eApiAlignment dnd5eApiAlignment = dnd5eApiAlignments.getAlignmentByIndex("chaotic-evil");
-        System.out.println(dnd5eApiAlignment);
     }
 }

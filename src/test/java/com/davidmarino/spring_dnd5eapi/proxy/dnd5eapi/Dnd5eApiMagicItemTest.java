@@ -20,12 +20,10 @@ class Dnd5eApiMagicItemTest {
     @Test
     public void whenGetMagicItems_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiMagicItems.getMagicItems();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetMagicItemByIndex_success() {
         Dnd5eApiMagicItem result = dnd5eApiMagicItems.getMagicItemByIndex("ammunition");
-        System.out.println(result);
     }
 }

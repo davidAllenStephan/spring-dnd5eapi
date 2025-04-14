@@ -20,12 +20,10 @@ class Dnd5eApiWeaponPropertyTest {
     @Test
     public void whenGetWeaponProperties_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiWeaponProperties.getWeaponProperties();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetWeaponPropertyByIndex_success() {
         Dnd5eApiWeaponProperty dnd5eApiWeaponProperty = dnd5eApiWeaponProperties.getWeaponPropertyByIndex("ammunition");
-        System.out.println(dnd5eApiWeaponProperty);
     }
 }

@@ -20,12 +20,10 @@ class Dnd5eApiProficiencyTest {
     @Test
     public void whenGetProficiencies_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiProficiencies.getProficiencies();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetProficiencyByIndex_success() {
         Dnd5eApiProficiency dnd5eApiProficiency = dnd5eApiProficiencies.getProficiencyByIndex("all-armor");
-        System.out.println(dnd5eApiProficiency);
     }
 }

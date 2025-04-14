@@ -20,12 +20,10 @@ class Dnd5eApiFeatureTest {
     @Test
     public void whenGetFeatures_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiFeatures.getFeatures();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetFeatureByIndex_success() {
         Dnd5eApiFeature result = dnd5eApiFeatures.getFeatureByIndex("action-surge-1-use");
-        System.out.println(result);
     }
 }

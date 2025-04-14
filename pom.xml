@@ -89,8 +89,8 @@
     <distributionManagement>
         <repository>
             <id>github</id>
-            <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/davidAllenStephan/spring-dnd5eapi</url>
+            <name>Github davidAllenStephan Apache Maven Packages</name>
+            <url>https://maven.pkg.github.com/service/davidAllenStephan/spring-dnd5eapi</url>
         </repository>
     </distributionManagement>
 

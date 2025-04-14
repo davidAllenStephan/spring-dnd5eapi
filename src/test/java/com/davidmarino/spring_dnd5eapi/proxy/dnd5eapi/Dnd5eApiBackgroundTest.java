@@ -20,12 +20,10 @@ class Dnd5eApiBackgroundTest {
     @Test
     public void whenGetBackgrounds_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiBackgrounds.getBackgrounds();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetBackgroundByIndex_success() {
         Dnd5eApiBackground dnd5eApiBackground = dnd5eApiBackgrounds.getBackgroundByIndex("acolyte");
-        System.out.println(dnd5eApiBackground);
     }
 }

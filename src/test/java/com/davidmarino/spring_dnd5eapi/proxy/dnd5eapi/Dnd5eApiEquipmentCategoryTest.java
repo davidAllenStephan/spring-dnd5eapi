@@ -20,12 +20,10 @@ class Dnd5eApiEquipmentCategoryTest {
     @Test
     public void whenGetEquipmentCategories_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiEquipmentCategories.getEquipmentCategories();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetEquipmentCategoryByIndex_success() {
         Dnd5eApiEquipmentCategory dnd5eApiEquipmentCategory = dnd5eApiEquipmentCategories.getEquipmentCategoryByIndex("adventuring-gear");
-        System.out.println(dnd5eApiEquipmentCategory);
     }
 }

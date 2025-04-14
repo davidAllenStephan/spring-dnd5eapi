@@ -20,12 +20,10 @@ class Dnd5eApiRuleTest {
     @Test
     public void whenGetRules_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiRules.getRules();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetRuleByIndex_success() {
         Dnd5eApiRule dnd5eApiRule = dnd5eApiRules.getRuleByIndex("adventuring");
-        System.out.println(dnd5eApiRule);
     }
 }

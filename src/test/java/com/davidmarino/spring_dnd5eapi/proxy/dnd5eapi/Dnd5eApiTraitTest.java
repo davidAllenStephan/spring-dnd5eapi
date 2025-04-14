@@ -20,12 +20,10 @@ class Dnd5eApiTraitTest {
     @Test
     public void whenGetTraits_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiTraits.getTraits();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetTraitByIndex_success() {
         Dnd5eApiTrait dnd5eApiTrait = dnd5eApiTraits.getTraitByIndex("brave");
-        System.out.println(dnd5eApiTrait);
     }
 }

@@ -20,12 +20,10 @@ class Dnd5eApiEquipmentTest {
     @Test
     public void whenGetEquipments_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiEquipments.getEquipments();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetEquipmentByIndex_success() {
         Dnd5eApiEquipment result = dnd5eApiEquipments.getEquipmentByIndex("abacus");
-        System.out.println(result);
     }
 }

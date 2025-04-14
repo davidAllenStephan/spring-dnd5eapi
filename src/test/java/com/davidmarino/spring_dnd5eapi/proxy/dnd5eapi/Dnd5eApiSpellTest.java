@@ -20,12 +20,10 @@ class Dnd5eApiSpellTest {
     @Test
     public void whenGetSpells_success() {
         Dnd5eApiNamedResourceList result = dnd5eApiSpells.getSpells();
-        System.out.println(result.getResults());
     }
 
     @Test
     public void whenGetSpellByIndex_success() {
         Dnd5eApiSpell dnd5eApiSpell = dnd5eApiSpells.getSpellByIndex("acid-arrow");
-        System.out.println(dnd5eApiSpell);
     }
 }

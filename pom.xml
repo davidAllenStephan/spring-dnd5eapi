@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.davidmarino</groupId>
 	<artifactId>spring-dnd5eapi</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<name>spring-dnd5eapi</name>
 	<description>Spring library for the public dnd5e API.</description>
     <url>https://github.com/davidAllenStephan/spring-dnd5eapi</url>
@@ -90,7 +90,7 @@
         <repository>
             <id>github</id>
             <name>Github davidAllenStephan Apache Maven Packages</name>
-            <url>https://maven.pkg.github.com/service/davidAllenStephan/spring-dnd5eapi</url>
+            <url>https://maven.pkg.github.com/davidAllenStephan/spring-dnd5eapi</url>
         </repository>
     </distributionManagement>
 

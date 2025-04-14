@@ -8,11 +8,12 @@
 		<version>3.4.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
+
 	<groupId>com.davidmarino</groupId>
 	<artifactId>spring-dnd5eapi</artifactId>
-	<version>0.0.1</version>
+	<version>0.0.2</version>
 	<name>spring-dnd5eapi</name>
-	<description>Spring library for the public dnd5e API.</description>
+	<description>Spring library for the public DnD 5e API.</description>
     <url>https://github.com/davidAllenStephan/spring-dnd5eapi</url>
 
     <developers>

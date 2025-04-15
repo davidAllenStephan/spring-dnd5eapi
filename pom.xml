@@ -11,7 +11,7 @@
 
 	<groupId>com.davidmarino</groupId>
 	<artifactId>spring-dnd5eapi</artifactId>
-	<version>0.0.2</version>
+	<version>0.0.3</version>
 	<name>spring-dnd5eapi</name>
 	<description>Spring library for the public DnD 5e API.</description>
     <url>https://github.com/davidAllenStephan/spring-dnd5eapi</url>

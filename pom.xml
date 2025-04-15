@@ -11,7 +11,7 @@
 
 	<groupId>com.davidmarino</groupId>
 	<artifactId>spring-dnd5eapi</artifactId>
-	<version>0.0.3</version>
+	<version>0.0.4</version>
 	<name>spring-dnd5eapi</name>
 	<description>Spring library for the public DnD 5e API.</description>
     <url>https://github.com/davidAllenStephan/spring-dnd5eapi</url>
@@ -30,6 +30,7 @@
 
 	<properties>
 		<java.version>21</java.version>
+        <spring-cloud.version>2024.0.1</spring-cloud.version>
 	</properties>
 
 	<dependencies>
@@ -78,14 +79,17 @@
         </dependency>
 	</dependencies>
 
-	<build>
-		<plugins>
-			<plugin>
-				<groupId>org.springframework.boot</groupId>
-				<artifactId>spring-boot-maven-plugin</artifactId>
-			</plugin>
-		</plugins>
-	</build>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>org.springframework.cloud</groupId>
+                <artifactId>spring-cloud-dependencies</artifactId>
+                <version>2024.0.1</version>
+                <type>pom</type>
+                <scope>import</scope>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
 
     <distributionManagement>
         <repository>

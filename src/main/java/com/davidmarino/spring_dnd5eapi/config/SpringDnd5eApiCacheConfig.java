@@ -17,7 +17,7 @@ public class SpringDnd5eApiCacheConfig {
     @Bean
     public HazelcastInstance hazelcastInstance() {
         Config config = new Config();
-        config.setInstanceName("spring-poke-api");
+        config.setInstanceName("spring-dnd5eapi");
 
         MapConfig mapConfig = config.getMapConfig("cache");
         mapConfig.setTimeToLiveSeconds(3600);

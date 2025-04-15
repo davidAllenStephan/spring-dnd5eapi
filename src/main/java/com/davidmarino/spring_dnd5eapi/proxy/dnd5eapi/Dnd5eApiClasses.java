@@ -1,17 +1,14 @@
 package com.davidmarino.spring_dnd5eapi.proxy.dnd5eapi;
 
 import com.davidmarino.spring_dnd5eapi.proxy.dnd5eapi.api.*;
-import com.davidmarino.spring_dnd5eapi.proxy.dnd5eapi.api.Dnd5eApiEquipment;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.List;
 
 @FeignClient(name = "dnd5eapi-classes", url = "https://www.dnd5eapi.co/api/2014")
-@Service
 public interface Dnd5eApiClasses {
     @GetMapping("/classes")
     Dnd5eApiNamedResourceList getClasses();

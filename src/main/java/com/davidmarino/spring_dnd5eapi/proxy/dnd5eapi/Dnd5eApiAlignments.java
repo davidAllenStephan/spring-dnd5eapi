@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @FeignClient(name = "dnd5eapi-alignments", url = "https://www.dnd5eapi.co/api/2014")
-@Service
 public interface Dnd5eApiAlignments {
     @GetMapping("/alignments")
     Dnd5eApiNamedResourceList getAlignments();

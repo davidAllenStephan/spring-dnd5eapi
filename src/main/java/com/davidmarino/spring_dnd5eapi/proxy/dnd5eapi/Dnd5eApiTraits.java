@@ -4,12 +4,10 @@ import com.davidmarino.spring_dnd5eapi.proxy.dnd5eapi.api.Dnd5eApiNamedResourceL
 import com.davidmarino.spring_dnd5eapi.proxy.dnd5eapi.api.Dnd5eApiTrait;
 import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cloud.openfeign.FeignClient;
-import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
 @FeignClient(name = "dnd5eapi-traits", url = "https://www.dnd5eapi.co/api/2014")
-@Service
 public interface Dnd5eApiTraits {
     @GetMapping("/traits")
     Dnd5eApiNamedResourceList getTraits();

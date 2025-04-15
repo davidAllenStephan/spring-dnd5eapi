@@ -3,7 +3,6 @@ package com.davidmarino.spring_dnd5eapi.proxy.dnd5eapi;
 import com.davidmarino.TestConfig;
 import com.davidmarino.spring_dnd5eapi.proxy.dnd5eapi.api.Dnd5eApiAbilityScore;
 import com.davidmarino.spring_dnd5eapi.proxy.dnd5eapi.api.Dnd5eApiNamedResourceList;
-import com.davidmarino.spring_dnd5eapi.proxy.dnd5eapi.api.Dnd5eApiSpell;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;

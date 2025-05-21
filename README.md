@@ -7,7 +7,7 @@
 
 Spring Boot library wrapper for [D&D 5e API](https://www.dnd5eapi.co/).
 
-Repository: ![https://github.com/davidAllenStephan/spring-dnd5eapi]
+Repository: ![https://github.com/davidAllenStephan/spring-dnd5eapi]()
 
 ## Features
 * OpenFeign to interact with D&D 5e API REST API

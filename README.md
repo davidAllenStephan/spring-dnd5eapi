@@ -7,6 +7,8 @@
 
 Spring Boot library wrapper for [D&D 5e API](https://www.dnd5eapi.co/).
 
+Repository: ![https://github.com/davidAllenStephan/spring-dnd5eapi]
+
 ## Features
 * OpenFeign to interact with D&D 5e API REST API
 * Resources cached locally with Hazelcast
@@ -99,17 +101,17 @@ dnd5eApiSpells will have an error "Could not autowire. No beans of 'Dnd5eApiSpel
 This library exposes all resources as Spring components, which can be autowired into your code.
 Each component points to a separate resource in D&D 5e API.
 
-* Dnd5eApiAbilityScores 
-* Dnd5eApiAlignments 
-* Dnd5eApiBackgrounds 
-* Dnd5eApiClasses 
-* Dnd5eApiConditions 
-* Dnd5eApiDamageTypes 
-* Dnd5eApiEquipmentCategories 
-* Dnd5eApiEquipments 
-* Dnd5eApiFeats 
-* Dnd5eApiFeatures 
-* Dnd5eApiImages 
+* Dnd5eApiAbilityScores
+* Dnd5eApiAlignments
+* Dnd5eApiBackgrounds
+* Dnd5eApiClasses
+* Dnd5eApiConditions
+* Dnd5eApiDamageTypes
+* Dnd5eApiEquipmentCategories
+* Dnd5eApiEquipments
+* Dnd5eApiFeats
+* Dnd5eApiFeatures
+* Dnd5eApiImages
 * Dnd5eApiLanguages
 * Dnd5eApiMagicItems
 * Dnd5eApiMagicSchools
